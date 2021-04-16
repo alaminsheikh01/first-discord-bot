@@ -24,6 +24,9 @@ client.on("message", (msg) => {
   if (msg.content === "Hi") {
     msg.reply("Hello!");
   }
+  if (msg.content === "hi") {
+    msg.reply("Hello!");
+  }
 
   if (msg.content === "i love bot") {
     msg.react("❤️");
