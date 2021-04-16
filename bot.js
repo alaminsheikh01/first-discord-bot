@@ -21,6 +21,9 @@ client.on("message", (msg) => {
     msg.reply("pong!");
     //msg.channel.send("not tagged");
   }
+  if (msg.content === "Hi") {
+    msg.reply("Hello!");
+  }
 
   if (msg.content === "i love bot") {
     msg.react("❤️");
